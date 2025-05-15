@@ -1,0 +1,9 @@
+{
+  "appId": "com.l-vrhovac.ashen",
+  "productName": "Ashen",
+  "files": ["dist-electron", "dist-react"],
+  "icon": "./icon.png",
+  "win": { "target": ["portable", "msi"] },
+  "mac": { "target": "dmg" },
+  "linux": { "target": "AppImage", "category": "Network" }
+}
